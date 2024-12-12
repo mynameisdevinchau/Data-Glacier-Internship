@@ -1,0 +1,15 @@
+file_type: csv
+dataset_name: students_large
+file_name: students_large
+table_name: students_large
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    - StudentID
+    - FirstName
+    - LastName
+    - Age
+    - Gender
+    - Major
+    - GPA
